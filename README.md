@@ -18,3 +18,6 @@ library(colorspace) - A Toolbox for Manipulating and Assessing Colors and Palett
 library(lattice) - A powerful and elegant high-level data visualization system inspired by Trellis graphics, with an emphasis on multivariate data. https://cran.r-project.org/web/packages/lattice/index.html
 library(biclust) - The main function biclust() provides several algorithms to find biclusters in two-dimensional data. https://cran.r-project.org/web/packages/biclust/index.html
 library(SnowballC) - Snowball Stemmers Based on the C 'libstemmer' UTF-8 Library. https://cran.r-project.org/web/packages/SnowballC/index.html
+
+Next step is to clean text file which lowercase all characters, remove repeat words and non-meaningful words etc.
+After text has been then the text file is read to mining for wordcloud. 
